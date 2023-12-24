@@ -145,6 +145,22 @@ if (!function_exists('redirect')) {
     }
 }
 
+if (!function_exists('jsonResponse')) {
+
+    function jsonResponse($status, $data) 
+    {
+        $response = array(
+            'status' => $status,
+            'data' => $data
+        );
+        $jsonResponse = json_encode($response);
+        header('Content-Type: application/json');
+        http_response_code($status);
+
+        return $jsonResponse;
+    }
+}
+
 
 if (!function_exists('isConnected')) {
 

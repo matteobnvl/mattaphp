@@ -8,6 +8,9 @@ use App\TwigExtensions;
 
 class Controller
 {
+    public const HTTP_RESPONSE_200 = 200;
+    public const HTTP_RESPONSE_404 = 404;
+    public const HTPP_RESPONSE_403 = 403;
     private $loader;
     protected $twig;
 
