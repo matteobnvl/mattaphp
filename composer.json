@@ -3,11 +3,12 @@
     "type": "framework",
     "description": "Framework php minimalist",
     "homepage": "https://github.com/matteobnvl/mattaphp",
+    "license": "mit",
     "authors": [
         {
             "name": "BONNEVAL Mattéo",
             "email": "contact@matteo-bonneval.fr",
-            "homepage": "https://mattaphp.matteo-bonneval.fr",
+            "homepage": "https://matteo-bonneval.fr",
             "role": "Developer"
         }
     ],
