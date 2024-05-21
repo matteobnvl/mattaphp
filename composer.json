@@ -4,6 +4,8 @@
     "description": "Framework php minimalist",
     "homepage": "https://github.com/matteobnvl/mattaphp",
     "license": "mit",
+    "minimum-stability": "dev",
+    "prefer-stable": true
     "authors": [
         {
             "name": "BONNEVAL Mattéo",
