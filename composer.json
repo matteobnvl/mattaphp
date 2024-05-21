@@ -1,4 +1,16 @@
 {
+    "name": "matteobnvl/mattaphp",
+    "type": "framework",
+    "description": "Logging for PHP 8.0",
+    "homepage": "https://github.com/matteobnvl/mattaphp",
+    "authors": [
+        {
+            "name": "BONNEVAL Mattéo",
+            "email": "contact@matteo-bonneval.fr",
+            "homepage": "https://mattaphp.matteo-bonneval.fr",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "twig/twig": "^3.6",
         "vlucas/phpdotenv": "^5.5",
