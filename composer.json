@@ -5,7 +5,7 @@
     "homepage": "https://github.com/matteobnvl/mattaphp",
     "license": "mit",
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
     "authors": [
         {
             "name": "BONNEVAL Mattéo",
