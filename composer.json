@@ -12,7 +12,6 @@
         }
     ],
     "require": {
-        "ext-openssl": "*",
         "twig/twig": "^3.6",
         "vlucas/phpdotenv": "^5.5",
         "phpmailer/phpmailer": "^6.8",
@@ -28,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nom_projet\\Frontier\\": "app/"
+            "matteobnvl\\mattaphp\\": "./"
         }
     }
 }
