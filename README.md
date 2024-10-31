@@ -1,10 +1,10 @@
 # MATTAPHP
-![](/public/images/mattaphp.png)
+![](/public/images/mattaphp.png)(https://mattaphp.matteo-bonneval.fr)
 ## Installation
 
-- faire un git clone du projet :
+- créer votre projet comme ceci :
 ```bash
-git clone https://github.com/matteobnvl/mattaphp.git
+composer create-project matteobnvl/mattaphp
 ```
 
 - Installer les dépendances :
@@ -15,20 +15,14 @@ composer install
 
 - Faire une copie du `.env.local` en `.env` en y ajoutant vos informations.
 
-- Supprimer l'origine du depôt :
-
-```bash
-git remote remove origin
-```
-
 ### Option 1 : utilisation docker
 
-Prérequis : docker d'installer sur le pc
+Prérequis : docker installer sur le pc
 
  - Lancer le container :
 
 ```shell
-docker-composer up -d
+docker-composer up -d --build
 ```
 
 - Retrouver l'application lancé sur :
@@ -43,7 +37,7 @@ Nécessaire :
  - Une base de données MySql 
  - Un serveur Apache
 
-Changer dans le `.env` la variable `APP_URL` en fonction de votre environnement
+Changer dans le `.env` la variable `APP_URL` en fonction de votre environnement, exemple si utilisation de XAMPP vous pouvez mettre le projet dans le dossier htdocs
 ```
 APP_URL = http://localhost/[Votre nom de dossier]
 ```
